@@ -1,0 +1,15 @@
+<div class="cont" *ngIf="status === undefined || status === false" [style.opacity]="loading ? '0.3' : '1'">
+  <h2>
+    Для регистрации в системе вам понадобится только фотография
+  </h2>
+  <div class="form">
+    <input type="file" name="path" (change)="savePath($event)" [disabled]="loading">
+    <button (click)="reg($event)" [disabled]="loading">Зарегистрировать</button>
+  </div>
+
+</div>
+<div class="result" *ngIf="status !== undefined" [style.opacity]="loading ? '0.3' : '1'">
+  <h2>
+    {{message}}
+  </h2>
+</div>

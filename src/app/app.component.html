@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="header">
+    <h1>
+      проект по защите информации
+    </h1>
+  </div>
+  <div class="main-part">
+    <div class="left">
+      <nav>
+        <ul class="menu">
+          <li id="registration">
+            <a routerLink="">регистрация</a>
+          </li>
+          <li id="crypt">
+            <a routerLink="/crypt">зашифровать</a>
+          </li>
+          <li id="decrypt">
+            <a routerLink="/decrypt">расшифровать</a>
+          </li>
+          <li id="about-project">
+            <a routerLink="/about">о проекте</a>
+          </li>
+          <li id="developers">
+            <a routerLink="/developers">разработчики</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="right">
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+      <div class="logos">
+        <a href="https://mipt.ru/"><img src="../assets/mfti_logo.png" alt="MIPT logo" width="275" height="80" id="mipt-logo"></a>
+        <a href="https://mipt.ru/drec/"><img src="../assets/frtk_logo.gif" alt="DREC logo" width="228" height="122" id="drec-logo"></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+
+  </div>
+</div>

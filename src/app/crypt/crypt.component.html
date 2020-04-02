@@ -1,0 +1,16 @@
+<div class="cont" *ngIf="status === undefined || status === false" [style.opacity]="loading ? '0.3' : '1'">
+  <h2>
+    Для зашифровки сообщения укажите фотографию и текст для шифрования
+  </h2>
+  <div class="form">
+    <input class="form-element" type="file" name="path" (change)="savePath($event)" [disabled]="loading">
+    <textarea class="form-element c-text" placeholder="Введите текст для зашифрования" [disabled]="loading" [(ngModel)]="text"></textarea>
+    <button class="form-element" (click)="crypt($event)" [disabled]="loading">Зашифровать</button>
+  </div>
+</div>
+
+<div class="result" *ngIf="status !== undefined" [style.opacity]="loading ? '0.3' : '1'">
+  <h2>
+    {{message}}
+  </h2>
+</div>

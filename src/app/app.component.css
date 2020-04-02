@@ -1,0 +1,114 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  box-shadow: -5px 5px 10px 0 rgba(35, 35, 35, 0.64);
+}
+.header {
+  vertical-align: top;
+  background: #7e909f;
+  height: 53px;
+}
+.main-part {
+  height: 780px;
+  /*box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 1);*/
+}
+
+h1 {
+  height: 100%;
+  text-align: right;
+  padding: 15px 43px 0 0;
+  color: #ffffff;
+  font-size: 14pt;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.left {
+  float: left;
+  width: 300px;
+  background: #7e909f;
+  height: 100%;
+}
+.right {
+  float: right;
+  width: 700px;
+}
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  position: relative;
+  transition: .5s ease;
+}
+
+li#registration:hover, li#developers:hover, li#crypt:hover, li#decrypt:hover, li#about-project:hover {
+  background: #9b6433;
+  box-shadow: -6px 6px 15px 0px #412814 inset;
+}
+
+li#registration {
+  background: #66869b;
+}
+li#crypt {
+  background: #5c7b8e;
+}
+li#decrypt {
+  background: #4a6879;
+}
+li#about-project {
+  background: #405e6e;
+}
+li#developers {
+  background: #385565;
+}
+
+.menu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20pt;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.logos {
+  height: 155px;
+  background: white;
+}
+#mipt-logo {
+  margin-left: 65px;
+  margin-top: 30px;
+  float: left;
+}
+
+#drec-logo {
+  display: block;
+  float: right;
+  margin-right: 70px;
+  margin-top: 18px;
+}
+
+.content {
+  height: 625px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer {
+  background: #2d4a58;
+  height: 53px;
+
+}

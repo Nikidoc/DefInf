@@ -1,0 +1,31 @@
+.cont {
+  /*margin: 0 auto;*/
+  width: 500px;
+  /*height: 100%;*/
+
+}
+h2 {
+  /*padding: 20% 0 25px 0;*/
+  /*margin: 0;*/
+  font-size: 15pt;
+  /*width: 500px;*/
+
+}
+.form-element {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.c-text {
+  padding: 0;
+  width: 496px;
+  max-width: 496px;
+  min-width: 496px;
+  max-height: 200px;
+  height: 100px;
+}
+
+button {
+  width: 30%;
+}
+

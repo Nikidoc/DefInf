@@ -1,0 +1,41 @@
+.person {
+  height: 123px;
+  margin-bottom: 58px;
+}
+
+.persons :last-child {
+  margin-bottom: 0;
+}
+
+.img {
+  float: left;
+  margin-right: 46px;
+  height: 100%;
+}
+
+.description {
+  float: right;
+  width: 376px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 15pt;
+  width: 100%;
+  margin-bottom: 5px;
+
+}
+
+.contribution, .group {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 13pt;
+  font-weight: lighter;
+}
+
+
+
+
+

@@ -1,0 +1,17 @@
+.cont {
+  width: 500px;
+}
+
+.load {
+  width: 500px;
+  opacity: .3;
+}
+
+h2 {
+  font-size: 15pt;
+}
+
+.result {
+  text-align: center;
+}
+

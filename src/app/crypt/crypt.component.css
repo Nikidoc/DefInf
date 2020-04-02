@@ -1,0 +1,32 @@
+.cont {
+  width: 500px;
+}
+
+.load {
+  width: 500px;
+  opacity: .3;
+}
+
+h2 {
+  font-size: 15pt;
+}
+
+.result {
+  text-align: center;
+}
+
+.form-element {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.c-text {
+  padding: 0;
+  width: 496px;
+  max-width: 496px;
+  min-width: 496px;
+  max-height: 200px;
+  height: 100px;
+}
+
+
